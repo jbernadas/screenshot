@@ -5,14 +5,15 @@ import unittest
 import util
 import sitemap_gen
 
-# target_url = 'https://texasgrips.com'
-# exclude1 = 'png'
-# exclude2 = 'jpg'
+target_url = 'http://baffinbayfloatingcabins.com'
+exclude1 = 'png'
+exclude2 = 'jpg'
+exclude3 = 'pdf'
 
 # # fire up the sitemap generator with the following parameter/options
 # # -b stands for block extensions, to be excluded from crawl, i.e., pdf, doc, excel, etc.
 # # please refer to http://toncar.cz/opensource/sitemap_gen.html for additional info on how to use sitemap_gen.py
-# os.system('python sitemap_gen.py -b %s -b %s %s' %(exclude1, exclude2, target_url)) 
+os.system('python sitemap_gen.py -b %s -b %s -b %s %s' %(exclude1, exclude2, exclude3, target_url))
 
 class Test(unittest.TestCase):
     """ Demonstration: Get Chrome to generate fullscreen screenshot """
