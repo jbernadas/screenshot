@@ -1,6 +1,6 @@
-******
-README
-******
+*****************************
+Web Page Screenshot Generator
+*****************************
 
 Note: This works on Linux operating systems. Windows and Mac OS not fully tested.
 
