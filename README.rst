@@ -13,7 +13,7 @@ To download Util, PIL and Selenium, you can use pip.
   pip install Pillow
   pip install selenium
 
-ChromeDriver needs to be downloaded from: https://sites.google.com/a/chromium.org/chromedriver/downloads. Choose the appropriate Chrome version, save it to your computer, cd into the directory where you downloaded Chromedriver. Unzip the file:
+ChromeDriver is downloaded from: https://sites.google.com/a/chromium.org/chromedriver/downloads. Choose the appropriate Chrome version, save it to your computer, cd into the directory where you downloaded Chromedriver. Unzip the file:
 ::
 
   unzip chromedriver_linux64.zip
@@ -28,6 +28,6 @@ Now cd into screenshot directory. Fire up the multi.py file:
 
   python multi.py
 
-It will ask you for the target URL. If the target URL has a lot of pages, the script will screenshot most of it (except those that end with PNG, JPG and PDF). The maximum is set at 4999 pages, which might be too much. You might want to change this in sitemap_gen.py.
+It will ask you for the target URL. Be careful to check if the target URL has a lot of pages, the script will screenshot most of it (except those that end with PNG, JPG and PDF). The maximum is set at 4999 pages, which might be too much. You might want to change this in sitemap_gen.py.
 
 Thanks for looking.
