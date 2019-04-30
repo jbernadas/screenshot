@@ -5,7 +5,7 @@ import unittest
 import util
 import sitemap_gen
 
-target_url = 'http://baffinbayfloatingcabins.com'
+target_url = raw_input('What is the target URL? ')
 exclude1 = 'png'
 exclude2 = 'jpg'
 exclude3 = 'pdf'
