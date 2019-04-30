@@ -16,7 +16,7 @@ To download Util, PIL and Selenium, you can use pip.
 ChromeDriver needs to be downloaded from: https://sites.google.com/a/chromium.org/chromedriver/downloads. Choose the appropriate Chrome version, save it to your computer, cd into the directory where you downloaded Chromedriver. Unzip the file:
 ::
 
-  unzip chromedriver
+  unzip chromedriver_linux64.zip
 
 Execute command:
 ::
