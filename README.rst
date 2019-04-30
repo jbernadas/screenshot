@@ -18,11 +18,6 @@ ChromeDriver needs to be downloaded from: https://sites.google.com/a/chromium.or
 
   unzip chromedriver_linux64.zip
 
-Execute command:
-::
-
-  pip install chromedriver
-
 Put chromedriver into your PATH:
 ::
   
@@ -33,6 +28,6 @@ Now cd into the inner screenshot directory. Fire up the multi.py file:
 
   python multi.py
 
-It will ask you for the target URL. If the target URL has a lot of pages in it, the script will copy most of it (except those that end with PNG, JPG and PDF). The maximum is set at 4999 pages, which might be too much. You might want to change this in sitemap_gen.py.
+It will ask you for the target URL. If the target URL has a lot of pages, the script will screenshot most of it (except those that end with PNG, JPG and PDF). The maximum is set at 4999 pages, which might be too much. You might want to change this in sitemap_gen.py.
 
 Thanks for looking.
