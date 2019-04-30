@@ -23,7 +23,7 @@ Put chromedriver into your PATH:
   
   sudo mv chromedriver /usr/local/bin/chromedriver
 
-Now cd into the inner screenshot directory. Fire up the multi.py file:
+Now cd into screenshot directory. Fire up the multi.py file:
 ::
 
   python multi.py
