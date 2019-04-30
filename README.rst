@@ -18,9 +18,10 @@ ChromeDriver is downloaded from: https://sites.google.com/a/chromium.org/chromed
 
   unzip chromedriver_linux64.zip
 
-Put chromedriver into your PATH:
+Make chromedriver executable then move it to a directory that is part of your path:
 ::
   
+  chmod +x chromedriver
   sudo mv chromedriver /usr/local/bin/chromedriver
 
 Now cd into screenshot directory. Fire up the multi.py file:
