@@ -1,3 +1,22 @@
+""" 
+    This is a SCREENSHOT GENERATOR that takes full-page images of web pages. It excludes PNG, JPG and PDF files.
+
+    ------------------------------------
+
+    Copyright (C) 2016-2019 Joseph Bernadas
+
+    This program is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+"""
+
 import sys
 import os
 from selenium import webdriver

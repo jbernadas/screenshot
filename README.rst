@@ -4,7 +4,7 @@ README
 
 Note: This works on Linux operating systems. Windows and Mac OS not fully tested.
 
-This is a Python 2 full-page-website screenshot generator. It generates screenshots by first crawling the target website to get all available URLs and writes all found pages to sitemap.txt. It then reads the list of URLs in sitemap.txt file and goes through the list one by one to create a full-page PNG screenshot of the web page. It has the following libraries as dependencies: Util, PIL, Selenium, ChromeDriver.
+This is a Python 2 full-page-website screenshot generator that is based on top of the web crawler first created by Vladimir Toncar and Pavel Dvorak. It generates screenshots by first crawling the target website to get all available URLs and writes all found pages to sitemap.txt. It then reads the list of URLs in sitemap.txt file and goes through the list one by one to create a full-page PNG screenshot of the web page. It has the following libraries as dependencies: Util, PIL, Selenium, ChromeDriver.
 
 To download Util, PIL and Selenium, you can use pip. 
 ::
