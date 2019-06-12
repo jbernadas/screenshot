@@ -2,7 +2,7 @@
 Web Page Screenshot Generator
 *****************************
 
-**boldNOTE: THIS PROJECT HAS REACHED END-OF-LIFE, AND IS NOW JUST PRESERVED HERE FOR POSTERITY. THE NEW PYTHON 3 VERSION OF THIS CAN BE FOUND ATbold** https://github.com/jbernadas/screenshot_py3
+**NOTE: THIS PROJECT HAS REACHED END-OF-LIFE, AND IS NOW JUST PRESERVED HERE FOR POSTERITY. THE NEW PYTHON 3 VERSION OF THIS CAN BE FOUND AT https://github.com/jbernadas/screenshot_py3**
 
 This is a Python 2 full-page-website screenshot generator that is built on top of the web crawler created by Vladimir Toncar and Pavel Dvorak. It generates screenshots by first crawling the target website to get all available URLs and writes all found pages to sitemap.txt. It then reads the list of URLs in sitemap.txt file and goes through the list one by one to create a full-page PNG screenshot of the web page. It has the following libraries as dependencies: Util, PIL, Selenium, ChromeDriver.
 
